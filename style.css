@@ -1,0 +1,61 @@
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #C4C4C4;
+        }
+        #search {
+            background-color: white;
+            border: 1px solid #ddd;
+            width: 523px;
+            padding: 10px;
+            font-size: 16px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        #autocomplete {
+            width: 523px;
+            border: 1px solid #ddd;
+            border-top: none;
+            display: none;
+        }
+        .autocomplete-item {
+            background-color: #E3E3E3;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .autocomplete-item:hover {
+            background-color: #65CDF9;
+        }
+        .repo-item {
+            background-color: #E27BEB ;
+            width: 503px;
+            height: 101px;
+            padding: 10px;
+            border: 1px solid black;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .repo-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .repo-name {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .repo-meta {
+            font-size: 14px;
+            color: #000000;
+        }
+        .remove-btn {
+            font-size: 50px;
+            color: #ff0000;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 5px;
+        }
