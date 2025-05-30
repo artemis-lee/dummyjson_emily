@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>GitHub Repo Search</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <input type="text" id="search" placeholder="Start typing to search...">
-    <div id="autocomplete"></div>
-    <div id="repos"></div>
+    <div class="profile">
+        <form class="profile__headers">
+            <input type="text" class="username" id="username"> 
+            <input type="password" class="password" id="password"> 
+        </form>
+        <div class="login_button">
+            <button id="button">
+                Log in
+            </button>
+        </div>
+        <div id ="info_button" class="info_button">
+            <button id="info-button">
+                Show info
+            </button>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <span class="popup__close">
+                    ❌
+                </span>
+                <p id="popup_info"></p>
+            </div>
+        </div>
+    </div>
 
 <script src="script.js"></script>
 </body>
